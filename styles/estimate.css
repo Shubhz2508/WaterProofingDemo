@@ -1,0 +1,40 @@
+.estimate .container {
+  padding: 40px;
+}
+
+.estimate .col-lg-6 {
+  padding: 20px;
+}
+
+.whatsapp {
+  gap: 20px;
+}
+
+@media screen and (min-width: 991px) {
+  .inline-left {
+    opacity: 0;
+    transform: translate3d(-100px, 0, 0);
+    transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out;
+  }
+
+  .inline-right {
+    opacity: 0;
+    transform: translate3d(100px, 0px, 0px) rotateZ(0deg);
+    transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out;
+  }
+
+  .inline-left.is-visible,
+  .inline-right.is-visible {
+    opacity: 1;
+    transform: translate3d(0px, 0, 0);
+    will-change: auto; /* Reset after animation */
+  }
+}
+
+.col-6-feedback {
+  background-color: rgb(211, 211, 211);
+}
+
+.form-feedback {
+  width: 80%;
+}

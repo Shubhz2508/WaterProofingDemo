@@ -1,0 +1,27 @@
+.image-grid .col-3 {
+  height: 400px;
+  padding: 0;
+  color: white;
+  background-size: cover; /* Adjusts the size to cover the entire area */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image */
+  object-fit: cover;
+}
+
+.image-grid .img-fluid {
+  height: 400px;
+}
+
+.first {
+  background-image: url("../assets/armchair-green-living-room-with-copy-space.jpg"); /* Replace with your image URL */
+}
+
+.second {
+  background-image: url("../assets/blue-wall-with-red-sofa.jpg"); /* Replace with your image URL */
+}
+.third {
+  background-image: url("../assets/green-plant-green-living-room-with-copy-space.jpg"); /* Replace with your image URL */
+}
+.fourth {
+  background-image: url("../assets/yellow-armchair-living-room-with-copy-space.jpg"); /* Replace with your image URL */
+}
